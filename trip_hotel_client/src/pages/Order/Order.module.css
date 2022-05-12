@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.orderPage {
+  width: 100vw;
+  height: 180vh;
+  background-color: rgb(243, 240, 240);
+  font-size: 3.5vw;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 7vh;
+  background-color: #0083f6;
+  background-image: linear-gradient(to right, #00a7fa, #0080f6);
+  color: #fff;
+  font-size: 5vw;
+  z-index: 2;
+}
+.back {
+  position: absolute;
+  left: 5vw;
+  width: 6vw;
+  height: 6vw;
+}
+.hotelInfoBg {
+  position: absolute;
+  top: 0;
+  margin-top: 7vh;
+  width: 100%;
+  height: 50vw;
+  background-color: #0083f6;
+  background-image: linear-gradient(to right, #00a7fa, #0080f6);
+  z-index: 0;
+}
+.hotelInfo {
+  position: relative;
+  box-sizing: border-box;
+  margin-top: 7vh;
+  width: 100vw;
+  background-color: #fff;
+  padding: 5vw 2vw 2vh 2vw;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  z-index: 1;
+}
+.hotelName {
+  font-size: 4vw;
+  font-weight: 600;
+}
+.package {
+  margin-top: 5px;
+  padding: 1vw 1vw 1vw 3px;
+  width: 100%;
+  background-color: #fff8f2;
+  background-image: linear-gradient(to right, #fff, #fff8f2);
+}
+.more {
+  float: right;
+  display: flex;
+  align-items: center;
+  height: 4vw;
+  color: grey;
+}
+.ctgLine {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2vw;
+}
+
+.categoryLogo {
+  box-sizing: border-box;
+  margin-right: 2vw;
+  width: 4vw;
+  height: 4vw;
+  border: 1px solid orange;
+  border-radius: 2vw;
+  background-color: #ff7700;
+  color: #fff;
+  font-size: 2vw;
+  text-align: center;
+  line-height: 4vw;
+}
+.singlePrice {
+  margin: 3vw 0;
+}
+.tip {
+  margin-right: 3vw;
+  padding-right: 3vw;
+}
+.lastTip {
+  display: flex;
+  width: 92%;
+  margin-right: 3vw;
+  padding-right: 3vw;
+}
+.lastTipLogo {
+  margin-right: 1vw;
+  padding-top: 0.5vw;
+}
+
+.lastTipBtn {
+  align-self: flex-end;
+}
+.ctgLine svg {
+  height: 3vw;
+  line-height: 3vw;
+  margin-right: 1vw;
+}
+.orderMenu {
+  width: 96vw;
+  height: 30vw;
+  margin: 2vw;
+  background-color: white;
+}
+.selectNum,
+.phoneInfo {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin: 2vw;
+  padding: 2vw 4vw;
+  height: 12vw;
+}
+.selectNum {
+  padding-bottom: 0;
+}
+.phoneNum {
+  display: flex;
+  align-items: center;
+  padding: 4vw 0 2vw 0;
+  width: 64vw;
+  border-bottom: 1px solid gainsboro;
+  border-top: 1px solid gainsboro;
+}
+.area {
+  width: 22vw;
+  padding: 4vw 0 2vw 0;
+}
+.areaNum {
+  height: 4vw;
+  font-weight: 650;
+}
+.areaNum:after {
+  content: '|';
+  color: rgb(192, 191, 191);
+  margin: 0 2vw;
+}
+.phoneInfo input {
+  font-size: 3.5vw;
+}
+
+.orderTips {
+  width: 96vw;
+  margin: 2vw;
+}
+.tipHead {
+  font-weight: 600;
+  margin-bottom: 1vw;
+}
+.tipContent {
+  color: grey;
+  margin-bottom: 3vw;
+}
+
+.bottomtext {
+  margin-top: 5vw;
+  width: 100%;
+  text-align: center;
+  font-size: 2vw;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  padding: 0 3vw;
+  width: 100%;
+  height: 8vh;
+  background-color: #fff;
+  font-size: 3vw;
+}
+
+.payButton {
+  position: absolute;
+  right: 10vw;
+  width: 40vw;
+  height: 10vw;
+  border: 1px orange solid;
+  border-radius: 2vw;
+  background-color: orange;
+  background-image: linear-gradient(to right, #ffa209, #ff7901);
+  color: #fff;
+  text-align: center;
+  line-height: 10vw;
+  font-size: 5vw;
+}
