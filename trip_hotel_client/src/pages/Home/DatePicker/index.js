@@ -69,8 +69,8 @@ export default function DatePicker(props) {
 
   return (
     <div className="picker_style">
-      <div className="tip">选择入住: </div>
-      <div className="date-picker" id='date-picker'>
+      <div className="tip">选择入住日期: </div>
+      <div className="date-picker" id="date-picker">
         {/* 上翻按钮 */}
         <Button size="small" onClick={toLastWeek}>
           <LeftOutlined fontSize="10px" />

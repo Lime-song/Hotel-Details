@@ -96,39 +96,41 @@ export default function Detail() {
   }
 
   return (
-    <div style={{ padding: 0 }}>
-      <div className='discountbox'>
-      <div className="box1">
-        <div className="price">
-          <div id="font">￥2699</div>
-          <div>2晚</div>
+    <div style={{ padding: 3 }}>
+      <div className="discountbox">
+        <div className="box1">
+          <div className="price">
+            <div id="font">￥2699</div>
+            <div>2晚</div>
+            <div>
+              <s>￥4599</s>
+            </div>
+          </div>
           <div>
-            <s>￥4599</s>
+            <div className="discount">
+              <RedEnvelopeFilled
+                style={{ fontSize: '16px', color: '#F65E59' }}
+              />
+              优惠1900
+              <CaretRightFilled
+                style={{ fontSize: '16px', color: '#F66258' }}
+              />
+            </div>
           </div>
         </div>
-        <div>
-          <div className="discount">
-            <RedEnvelopeFilled
-              style={{ fontSize: '16px', color: '#F65E59' }}
-            />
-            优惠1900
-            <CaretRightFilled
-              style={{ fontSize: '16px', color: '#F66258' }}
-            />
-          </div>
-        </div>
-      </div>
-      <div className="sale">已售14份</div>
+        <div className="sale">已售14份</div>
       </div>
       <Taocan taocan={taocan} />
       <div className="box3">
         <div className="green">
-          <CheckCircleOutlined style={{ fontSize: '16px', color: '#319273',padding:'4px'}}/>
+          <CheckCircleOutlined
+            style={{ fontSize: '16px', color: '#319273', padding: '4px' }}
+          />
           过期退 随时退 全额退
         </div>
         <div className="process">
           <ExclamationCircleOutlined
-            style={{ fontSize: '16px', color: '#323232',padding:'4px'}}
+            style={{ fontSize: '16px', color: '#323232', padding: '4px' }}
           />
           {`至少提前1天预约${date ? ',有效期到' + date + '离店' : ''}`}
         </div>

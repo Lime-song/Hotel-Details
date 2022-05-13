@@ -1,12 +1,12 @@
 {
   "order": [
     {
-      "title": "hotelPhoto",
-      "key": "hotelPhoto"
-    },
-    {
       "title": "hotelDetail",
       "key": "hotelDetail"
+    },
+    {
+      "title": "hotelPhoto",
+      "key": "hotelPhoto"
     },
     {
       "title": "choseTime",
@@ -17,19 +17,6 @@
       "key": "roomList",
       "children": [
         {
-          "title": "行政豪华双床房",
-          "key": "483494",
-          "detail": {
-            "hotel_id": "347308",
-            "base_room_id": "483494",
-            "base_room_name": "行政豪华双床房",
-            "min_price": "2819",
-            "base_room_cover_url": "http://dimg04.c-ctrip.com/images/0200k1200070fge9b3E0B_C_200_200_Q70.jpg",
-            "images": "http://dimg04.c-ctrip.com/images/0200k1200070fge9b3E0B_C_800_800_Q70.jpg;http://dimg04.c-ctrip.com/images/020721200070femluBAC6_C_800_800_Q70.jpg;http://dimg04.c-ctrip.com/images/2X0e170000012qfqb9748_C_800_800_Q70.jpg;http://dimg04.c-ctrip.com/images/200t0e00000073cgv0C90_C_800_800_Q70.jpg;http://dimg04.c-ctrip.com/images/220a18000001501rwF6C1_C_800_800_Q70.jpg;http://dimg04.c-ctrip.com/images/200g0e00000073aq56EB2_C_800_800_Q70.jpg;http://dimg04.c-ctrip.com/images/fd/hotel/g6/M02/36/BA/CggYtFcMjNmAB70WAAID1q0_WDw986_C_800_800_Q70.jpg;http://dimg04.c-ctrip.com/images/200913000000uahcjE439_C_800_800_Q70.jpg",
-            "room_facilities": "无障碍设施:无障碍通道|无障碍淋浴|坐便器-带扶手|盥洗盆较低|淋浴座椅|浴室 - 带紧急按钮;特色设施:行政酒廊待遇;便利设施:坐卧两用长沙发|自动窗帘|房间内高速上网|客房WIFI免费|遮光窗帘|暖气|空气净化器|空调免费|衣柜／衣橱|熨衣设备|书桌|客厅角|开夜床|床具:鸭绒被|床具：毯子或被子|备用床具免费|房内保险箱|闹钟|针线包|衣架|地毯|多种规格电源插座|220V电压插座;室外景观:地标景|花园景|城景;媒体科技:电话|语音留言|液晶电视机|国内长途电话|国际长途电话|有线频道|卫星频道|电影服务免费|按次点播收费电视|iPod音乐基座|DVD播放机|智能门锁|收音机;浴室:浴缸|独立淋浴间|独立卫生间|洗浴间电视|洗浴间电话|吹风机|浴室化妆放大镜|浴衣免费|24小时热水|电热水器|拖鞋;洗浴用品:沐浴露|洗发水|护发素|香皂;食品饮品:咖啡机|咖啡壶/茶壶|茶包|软饮|酒精饮料|瓶装水免费|电热水壶|迷你吧收费;厨房用品:冰箱;其他:报纸"
-          }
-        },
-        {
           "title": "行政豪华大床房",
           "key": "483495",
           "detail": {
@@ -39,6 +26,19 @@
             "min_price": "2387",
             "base_room_cover_url": "http://dimg04.c-ctrip.com/images/fd/hotel/g5/M09/3E/1B/CggYsVcMjN-AfWEBAAIh2komAZo792_C_200_200_Q70.jpg",
             "images": "http://dimg04.c-ctrip.com/images/fd/hotel/g5/M09/3E/1B/CggYsVcMjN-AfWEBAAIh2komAZo792_C_800_800_Q70.jpg;http://dimg04.c-ctrip.com/images/200r13000000u6hqvF223_C_800_800_Q70.jpg;http://dimg04.c-ctrip.com/images/200n0e000000735360E5A_C_800_800_Q70.jpg;http://dimg04.c-ctrip.com/images/200h13000000u9n4sB969_C_800_800_Q70.jpg;http://dimg04.c-ctrip.com/images/200l13000000u88l6A7D0_C_800_800_Q70.jpg;http://dimg04.c-ctrip.com/images/200913000000uahcjE439_C_800_800_Q70.jpg",
+            "room_facilities": "无障碍设施:无障碍通道|无障碍淋浴|坐便器-带扶手|盥洗盆较低|淋浴座椅|浴室 - 带紧急按钮;特色设施:行政酒廊待遇;便利设施:坐卧两用长沙发|自动窗帘|房间内高速上网|客房WIFI免费|遮光窗帘|暖气|空气净化器|空调免费|衣柜／衣橱|熨衣设备|书桌|客厅角|开夜床|床具:鸭绒被|床具：毯子或被子|备用床具免费|房内保险箱|闹钟|针线包|衣架|地毯|多种规格电源插座|220V电压插座;室外景观:地标景|花园景|城景;媒体科技:电话|语音留言|液晶电视机|国内长途电话|国际长途电话|有线频道|卫星频道|电影服务免费|按次点播收费电视|iPod音乐基座|DVD播放机|智能门锁|收音机;浴室:浴缸|独立淋浴间|独立卫生间|洗浴间电视|洗浴间电话|吹风机|浴室化妆放大镜|浴衣免费|24小时热水|电热水器|拖鞋;洗浴用品:沐浴露|洗发水|护发素|香皂;食品饮品:咖啡机|咖啡壶/茶壶|茶包|软饮|酒精饮料|瓶装水免费|电热水壶|迷你吧收费;厨房用品:冰箱;其他:报纸"
+          }
+        },
+        {
+          "title": "行政豪华双床房",
+          "key": "483494",
+          "detail": {
+            "hotel_id": "347308",
+            "base_room_id": "483494",
+            "base_room_name": "行政豪华双床房",
+            "min_price": "2819",
+            "base_room_cover_url": "http://dimg04.c-ctrip.com/images/0200k1200070fge9b3E0B_C_200_200_Q70.jpg",
+            "images": "http://dimg04.c-ctrip.com/images/0200k1200070fge9b3E0B_C_800_800_Q70.jpg;http://dimg04.c-ctrip.com/images/020721200070femluBAC6_C_800_800_Q70.jpg;http://dimg04.c-ctrip.com/images/2X0e170000012qfqb9748_C_800_800_Q70.jpg;http://dimg04.c-ctrip.com/images/200t0e00000073cgv0C90_C_800_800_Q70.jpg;http://dimg04.c-ctrip.com/images/220a18000001501rwF6C1_C_800_800_Q70.jpg;http://dimg04.c-ctrip.com/images/200g0e00000073aq56EB2_C_800_800_Q70.jpg;http://dimg04.c-ctrip.com/images/fd/hotel/g6/M02/36/BA/CggYtFcMjNmAB70WAAID1q0_WDw986_C_800_800_Q70.jpg;http://dimg04.c-ctrip.com/images/200913000000uahcjE439_C_800_800_Q70.jpg",
             "room_facilities": "无障碍设施:无障碍通道|无障碍淋浴|坐便器-带扶手|盥洗盆较低|淋浴座椅|浴室 - 带紧急按钮;特色设施:行政酒廊待遇;便利设施:坐卧两用长沙发|自动窗帘|房间内高速上网|客房WIFI免费|遮光窗帘|暖气|空气净化器|空调免费|衣柜／衣橱|熨衣设备|书桌|客厅角|开夜床|床具:鸭绒被|床具：毯子或被子|备用床具免费|房内保险箱|闹钟|针线包|衣架|地毯|多种规格电源插座|220V电压插座;室外景观:地标景|花园景|城景;媒体科技:电话|语音留言|液晶电视机|国内长途电话|国际长途电话|有线频道|卫星频道|电影服务免费|按次点播收费电视|iPod音乐基座|DVD播放机|智能门锁|收音机;浴室:浴缸|独立淋浴间|独立卫生间|洗浴间电视|洗浴间电话|吹风机|浴室化妆放大镜|浴衣免费|24小时热水|电热水器|拖鞋;洗浴用品:沐浴露|洗发水|护发素|香皂;食品饮品:咖啡机|咖啡壶/茶壶|茶包|软饮|酒精饮料|瓶装水免费|电热水壶|迷你吧收费;厨房用品:冰箱;其他:报纸"
           }
         },
